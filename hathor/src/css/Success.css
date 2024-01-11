@@ -1,0 +1,103 @@
+.success{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+    gap: 1.25rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.empower{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    min-height: 100vh;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.line7{
+    font-size: 88px;
+    color: #ccfc04;
+    font-family: SF Pro,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+
+.line8{
+    font-size: 72px;
+    color: white;
+    text-transform: uppercase;
+    font-family: SF Pro,sans-serif;
+    font-weight: 700;
+    margin-top: -2rem;
+    line-height: 2.5rem;
+    margin: 0;
+}
+
+.line9{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    --tw-text-opacity: 1;
+    font-family: SF Pro,sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.image3{
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.img3{
+    min-height: 100vh;
+}
+
+@media (max-width: 767px){
+    .success {
+        padding: 1rem;
+        position: relative;
+        display: flex;
+        flex-direction: column; 
+        gap: 1.25rem;
+        margin-bottom: 2rem;
+        min-height: 100vh;
+      }
+    
+      .empower {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        margin-bottom: -7rem;
+        margin-top: -43rem;
+        order: 2;
+        margin-left: -5rem;
+        padding-left: 3rem;
+        padding-right: 0;
+      }
+    
+      .line7{
+        font-size: 50px;
+      }
+      .line8{
+        font-size: 40px;
+      }
+      .line9{
+        font-size: 15px;
+      line-height: 1.75rem;
+      }
+    
+      .image3{
+        order:1;
+        height: 950px;
+      }
+}

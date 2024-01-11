@@ -1,0 +1,82 @@
+.infinity{
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 100vh;
+}
+
+.gif{
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -5rem;
+}
+
+.gif img{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 170px;
+}
+
+.imagination{
+    position: absolute;
+    text-align: center;
+    top: 75%;
+}
+
+.imagination span{
+    
+    font-size: 88px;
+    color: #ccfc04;
+    font-family: SF Pro,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0;
+}
+
+.imagination p{
+    font-size: 88px;
+    color: white;
+    text-transform: uppercase;
+    font-family: SF Pro,sans-serif;
+    font-weight: 700;
+    margin-top: -2rem;
+    line-height: 2.5rem;
+    margin-left: 315px;
+}
+
+@media(max-width: 767px){
+    .infinity{
+        padding: 1rem;
+        position: relative;
+        display: flex;
+        flex-direction: column; 
+        min-height: 65vh;
+    }
+
+    .gif img{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .imagination span{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .imagination p{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+}

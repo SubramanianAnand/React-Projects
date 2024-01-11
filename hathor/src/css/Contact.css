@@ -1,0 +1,124 @@
+.contact{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    --tw-bg-opacity: 1;
+    background-color: rgb(2 2 2 / var(--tw-bg-opacity));
+    align-items: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.ready{
+    width: 58.33333%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 4rem;
+    order:1;
+    padding: 1rem;
+}
+
+.ready p{
+    color: #ccfc04;
+    margin-left: -0.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: SF Pro,sans-serif;
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.ready span{
+    color: white;
+}
+
+#text{
+    font-weight: 300;
+    text-align: left;
+    margin-top: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: SF Pro,sans-serif;
+    color: white;
+}
+
+.button{
+    width: 20%;
+    cursor: pointer;
+    margin-top: 1.75rem;
+    border-radius: 0.5rem;
+    background-color: #ccfc04;
+    font-family: SF Pro,sans-serif;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.button:hover{
+    transform: scale(1.2) translateZ(0px);
+}
+
+.animate{
+    width; 41.666667%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: -4rem;
+    order: 1;
+}
+
+.animate1{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 767px){
+    .contact{
+        padding: 1rem;
+        position: relative;
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .animate{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin-left: -42px;
+        order: 1;
+    }
+
+    .ready{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        margin-left: 1rem;
+    }
+
+    .ready p{
+        font-size: 1.875rem;
+    }
+
+    #text{
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .button{
+        width: 40%;
+    }
+}
